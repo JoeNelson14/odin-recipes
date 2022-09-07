@@ -1,0 +1,53 @@
+:root {
+    --red-color: #f5323f;
+    --teal-color: #77ccdd;
+}
+
+body {
+    margin: 0 100px;
+    background-color: var(--teal-color);
+}
+
+h3 {
+    color: var(--red-color);
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+p, li {
+    font-family: 'Average Sans', sans-serif;
+    font-size: 22px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 a:hover {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+}
+
+.main-title {
+    font-family: 'Amatic SC', cursive;
+    color: var(--red-color);
+    font-size: 56px;
+}
+
+.main-title-color {
+    color: #fff;
+}
+
+.recipe-image {
+    width: 400px;
+}

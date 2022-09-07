@@ -1,0 +1,43 @@
+:root {
+    --orange-color: #f9be02;
+    --red-color: #f5323f;
+    --teal-color: #77ccdd;
+    --auqa-color: #02c8a7;
+}
+body {
+    margin: auto auto;
+    background-color: var(--teal-color);
+    font-family: 'Amatic SC', cursive;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.home-title {
+    font-size: 70px;
+    color: #fff;
+    margin: 25px 0;
+}
+.home-title-color {
+    color: var(--red-color);
+}
+
+.recipe-list-item {
+    display: inline;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+.recipe-list-item a {
+    color: var(--red-color);
+    text-decoration: none;
+}
+
+.recipe-list-item a:hover {
+    color: #fff;
+    font-size: 34px;
+}
